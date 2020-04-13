@@ -1,0 +1,92 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(185, 149, 101);
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    /* padding: 0;
+    margin:0; */
+
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.sec-heading h2 {
+    color: rgb(255, 27, 27);
+    font-weight: 100;
+    font-size: 2.0rem;
+
+}
+
+.sec-heading p {
+
+    color: rgb(161, 26, 26);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.sec-heading {
+    margin-bottom: 50px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#mainnavbar .navbar-brand {
+
+    color: rgb(255, 27, 27);
+    font-size: 1.5rem;
+    font-weight: 100;
+
+
+}
+
+#mainnavbar .nav-link {
+    color: white;
+}
+
+#mainnavbar .nav-link:hover {
+    color: rgb(255, 27, 27);
+}
+
+#headinggroup span {
+    color: rgb(255, 27, 27);
+    /*bar between fictional and museum*/
+}
+
+#headinggroup h1 {
+
+    font-weight: 100;
+    font-size: 4.0rem;
+}
+
+.navbar.scrolled {
+
+    background-color: rgb(185, 158, 131);
+    transition: background 500ms;
+}
+
+@media (max-width:1110px) {
+
+    #headinggroup h1 {
+
+        font-weight: 100;
+        font-size: 3.0rem;
+    }
+}
